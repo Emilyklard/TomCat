@@ -12,7 +12,7 @@ import java.io.PrintWriter;
         protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
             response.setContentType("text/html");
             PrintWriter out = response.getWriter();
-            out.println("<h2>Hello, Friends!</h2>");
+            out.println("<h2>Hello, TTTT!</h2>");
             out.close();
         }
     }
